@@ -13,7 +13,7 @@
 	</head>
 <body>
 	<h1>Tres en linea</h1>
-	<table border="1">
+	<table border="3">
 		<c:forEach var="line" items="${gameBean.gridLines}">
 		<tr>
 			<c:forEach var="cell" items="${gameBean.getGridStatus(line)}">
