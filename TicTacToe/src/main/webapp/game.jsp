@@ -12,7 +12,7 @@
 		<title>Tres en raya</title>
 	</head>
 <body>
-	<h1>Tic Tac Toe</h1>
+	<h1>Tres en raya</h1>
 	<table border="1">
 		<c:forEach var="line" items="${gameBean.gridLines}">
 		<tr>
@@ -41,9 +41,9 @@
 </c:forEach>
 </table>
 <c:if test="${winner != null}">
-<h2>${winner} Won!</h1>
+<h2>${winner} Gana!</h1>
 <form action="index.jsp" method="post">
-<input type="submit" name="Replay" value="Play Again"><br/>
+<input type="submit" name="Repetir" value="Jugar de Nuevo"><br/>
 </form>
 </c:if>
 </body>

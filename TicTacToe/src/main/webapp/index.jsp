@@ -5,14 +5,13 @@
 <<html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>Tic Tac Toe</title>>
+		<title>Tres en raya</title>>
 	</head>>
 	<body>
-		<h1> Tic Tac Toe</h1>
+		<h1> Tres en raya</h1>
 		<form action="entryServlet" method="post">
-			<input type="submit" name="User" value="Your Start"><br/>
-			<input type="submit" name="computer" value="The computer
-starts">
+			<input type="submit" name="User" value="Empieza Usuario"><br/>
+			<input type="submit" name="computer" value="El ordenador Empieza">
 	  </form>
 	</body>	
 </html>
