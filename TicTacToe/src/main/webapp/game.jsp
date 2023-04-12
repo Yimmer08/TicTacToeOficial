@@ -41,7 +41,7 @@
 </c:forEach>
 </table>
 <c:if test="${winner != null}">
-<h2>${winner} gana!</h1>
+<h2>${winner} gana!!</h1>
 <form action="index.jsp" method="post">
 <input type="submit" name="Repetir" value="Jugar de Nuevo"><br/>
 </form>

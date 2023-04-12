@@ -33,7 +33,7 @@ switch(game.getWinner()){
 case NOBODY:
 break;
 case COMPUTER:
-request.setAttribute("winner", "ordenador");
+request.setAttribute("winner", "Ordenador");
 break;
 case USER:
 request.setAttribute("winner", "Usuario");
@@ -42,7 +42,7 @@ break;
 }
 break;
 case COMPUTER:
-request.setAttribute("winner", " ordenador");
+request.setAttribute("winner", "Ordenador");
 break;
 case USER:
 request.setAttribute("winner", "Usuario");
