@@ -9,10 +9,10 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>Tres en raya</title>
+		<title>Tres en line</title>
 	</head>
 <body>
-	<h1>Tres en raya</h1>
+	<h1>Tres en linea</h1>
 	<table border="1">
 		<c:forEach var="line" items="${gameBean.gridLines}">
 		<tr>
@@ -41,7 +41,7 @@
 </c:forEach>
 </table>
 <c:if test="${winner != null}">
-<h2>${winner} Gana!</h1>
+<h2>${winner} gana!</h1>
 <form action="index.jsp" method="post">
 <input type="submit" name="Repetir" value="Jugar de Nuevo"><br/>
 </form>

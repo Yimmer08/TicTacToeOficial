@@ -33,7 +33,7 @@ switch(game.getWinner()){
 case NOBODY:
 break;
 case COMPUTER:
-request.setAttribute("winner", "El ordenador");
+request.setAttribute("winner", "ordenador");
 break;
 case USER:
 request.setAttribute("winner", "Usuario");
@@ -42,14 +42,14 @@ break;
 }
 break;
 case COMPUTER:
-request.setAttribute("winner", "El ordenador");
+request.setAttribute("winner", " ordenador");
 break;
 case USER:
 request.setAttribute("winner", "Usuario");
 break;
 }
 if(winner == GamePlayer.NOBODY && !game.hasEmptyCell()){
-request.setAttribute("winner", "Nadie");
+request.setAttribute("winner", "Ninguno");
 }
 request.getRequestDispatcher("/game.jsp").forward(request, response);
 }
